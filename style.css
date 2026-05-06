@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #1d2b64, #00c6ff);
     margin: 0;
+    min-height: 100vh;
 }
 
 .container {
@@ -92,6 +93,7 @@ button:hover {
 }
 .container {
     margin-top: 30px;
+    width: 90%;
 }
 .header img {
     width: 150px;
@@ -134,4 +136,30 @@ h1 {
         opacity: 1;
         transform: translateY(0);
     }
+}
+.links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.links {
+    margin-top: 10px;
+}
+.links a:hover {
+    text-decoration: underline;
+}
+.button {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 8px 15px;
+    background: #00c6ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.button:hover {
+    background: #0072ff;
 }
