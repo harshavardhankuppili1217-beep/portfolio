@@ -24,6 +24,7 @@ h1 {
 
 p {
     color: #eee;
+    font-size: medium;
 }
 
 .card {
@@ -162,14 +163,4 @@ h1 {
 
 .button:hover {
     background: #0072ff;
-}
-.card p {
-    overflow-wrap: break-word;
-    word-break: break-all;
-}
-.card {
-    padding: 20px;
-    width: 90%;
-    max-width: 500px;
-    margin: auto;
 }
