@@ -163,32 +163,13 @@ h1 {
 .button:hover {
     background: #0072ff;
 }
-.project-card {
-  background: #ffffff;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  margin-top: 20px;
+.card p {
+    overflow-wrap: break-word;
+    word-break: break-all;
 }
-
-.project-card h3 {
-  margin-bottom: 10px;
-}
-
-.project-card p {
-  margin-bottom: 10px;
-}
-
-.project-links {
-  margin-top: 15px;
-  display: flex;
-  gap: 12px;
-}
-
-.project-links a {
-  text-decoration: none;
-  padding: 8px 14px;
-  border-radius: 8px;
-  background: #2563eb;
-  color: white;
+.card {
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
 }
